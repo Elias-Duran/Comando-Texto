@@ -1,0 +1,15 @@
+----------- Crear carpeta -------------
+
+mdkdir "nombre de carpeta"
+
+----------- crear archivo texto -------------
+
+touch nombre.txt
+
+---------- Abrir editor de texto ------------
+
+nano nombre.txt
+
+---------- Abrir archivo por pantalla -------
+
+less nombre.txt 

@@ -1,0 +1,30 @@
+----------Lista de los primeros comandos de Git ----------------
+
+git init                      -(crear carpeta git)-
+git status	              -(Estado de la carpeta)-
+
+----------Formas de ejecutar el comando agregar "add" ----------
+
+git add "Nombre.txt"           -(De forma unitaria)-
+git add .                      -(Todos los archivos)-
+
+----------- Guardar Version ----------------
+
+git commit -m "Mensaje"
+
+----------- Crear una Rama ------------------
+
+git branch -m main
+
+----------- Confirmacion estado (Rama) ------
+
+git log
+
+----------- Registara usuario ---------------
+
+git config -global user.name "Elias"
+git config -global user.email "elias.duran-co@gmail.com"
+
+-----------///Hacer un push (subir archivos)///---------
+
+git remote punsh main 
